@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj",
+        "projectName": "SLProcess_VM_Size_7day_Variation_1",
+        "projectPath": "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj",
+        "packagesPath": "C:\\Users\\sofiana\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sofiana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://devcore3:81/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Skyline.DataMiner.Core.DataMinerSystem.Automation": {
+              "target": "Package",
+              "version": "[1.1.1.13, )"
+            },
+            "Skyline.DataMiner.Dev.Automation": {
+              "target": "Package",
+              "version": "[10.2.0.25, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
