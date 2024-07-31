@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj": {}
+    "C:\\GitHub\\Skyline\\SLC-AS-DMS_7Day-Variation-VM-Size\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj": {
+    "C:\\GitHub\\Skyline\\SLC-AS-DMS_7Day-Variation-VM-Size\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj",
+        "projectUniqueName": "C:\\GitHub\\Skyline\\SLC-AS-DMS_7Day-Variation-VM-Size\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj",
         "projectName": "SLProcess_VM_Size_7day_Variation_1",
-        "projectPath": "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj",
+        "projectPath": "C:\\GitHub\\Skyline\\SLC-AS-DMS_7Day-Variation-VM-Size\\SLProcess_VM_Size_7day_Variation_1\\SLProcess_VM_Size_7day_Variation_1.csproj",
         "packagesPath": "C:\\Users\\sofiana\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Skyline\\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\\SLProcess_VM_Size_7day_Variation_1\\obj\\",
+        "outputPath": "C:\\GitHub\\Skyline\\SLC-AS-DMS_7Day-Variation-VM-Size\\SLProcess_VM_Size_7day_Variation_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sofiana\\AppData\\Roaming\\NuGet\\NuGet.Config",

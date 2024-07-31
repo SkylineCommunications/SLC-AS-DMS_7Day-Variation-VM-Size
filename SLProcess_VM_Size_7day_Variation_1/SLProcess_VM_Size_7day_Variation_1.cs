@@ -1,3 +1,54 @@
+/*
+****************************************************************************
+*  Copyright (c) 2024,  Skyline Communications NV  All Rights Reserved.    *
+****************************************************************************
+
+By using this script, you expressly agree with the usage terms and
+conditions set out below.
+This script and all related materials are protected by copyrights and
+other intellectual property rights that exclusively belong
+to Skyline Communications.
+
+A user license granted for this script is strictly for personal use only.
+This script may not be used in any way by anyone without the prior
+written consent of Skyline Communications. Any sublicensing of this
+script is forbidden.
+
+Any modifications to this script by the user are only allowed for
+personal use and within the intended purpose of the script,
+and will remain the sole responsibility of the user.
+Skyline Communications will not be responsible for any damages or
+malfunctions whatsoever of the script resulting from a modification
+or adaptation by the user.
+
+The content of this script is confidential information.
+The user hereby agrees to keep this confidential information strictly
+secret and confidential and not to disclose or reveal it, in whole
+or in part, directly or indirectly to any person, entity, organization
+or administration without the prior written consent of
+Skyline Communications.
+
+Any inquiries can be addressed to:
+
+	Skyline Communications NV
+	Ambachtenstraat 33
+	B-8870 Izegem
+	Belgium
+	Tel.	: +32 51 31 35 69
+	Fax.	: +32 51 31 01 29
+	E-mail	: info@skyline.be
+	Web		: www.skyline.be
+	Contact	: Ben Vandenberghe
+
+****************************************************************************
+Revision History:
+
+DATE		VERSION		AUTHOR			COMMENTS
+
+31/07/2024	1.0.0.1		SNA, Skyline	Initial version
+****************************************************************************
+*/
+
 namespace SLProcess_VM_Size_7day_Variation_1
 {
 	using System;
@@ -12,10 +63,7 @@ namespace SLProcess_VM_Size_7day_Variation_1
 	using Skyline.DataMiner.Net.Messages;
 	using Skyline.DataMiner.Net.Trending;
 
-
-	using Consts = Library.Consts.MicrosoftPlatformConsts;
 	using ElementState = Skyline.DataMiner.Core.DataMinerSystem.Common.ElementState;
-
 
 	/// <summary>
 	/// Represents a DataMiner Automation script.
@@ -78,11 +126,6 @@ namespace SLProcess_VM_Size_7day_Variation_1
 		public static void ProcessRecords(Dictionary<string, double> averages, GetTrendDataResponseMessage trendDataResponseMessage, IEngine engine)
 		{
 			var records = trendDataResponseMessage.Records;
-
-			if (records == null)
-			{
-				return;
-			}
 
 			foreach (string key in records.Keys)
 			{
@@ -154,15 +197,16 @@ namespace SLProcess_VM_Size_7day_Variation_1
 		private void RunSafe(IEngine engine)
 		{
 			List<TestResult> results = new List<TestResult>();
-
+			int taskManagerTable = 96;
+			int computerNameParam = 165;
 			IDms dms = engine.GetDms();
 			var elements = dms.GetElements().Where(e => e.Protocol.Name.Equals("Microsoft Platform") && e.State == ElementState.Active);
 
 			foreach (var element in elements)
 			{
-				var computerName = element.GetStandaloneParameter<string>(Consts.ComputerNameParam).GetValue();
+				var computerName = element.GetStandaloneParameter<string>(computerNameParam).GetValue();
 				var now = DateTime.Now;
-				var processes = element.GetTable(Consts.TaskManagerTable).GetRows();
+				var processes = element.GetTable(taskManagerTable).GetRows();
 				var processNames = processes.Select(x => Convert.ToString(x[0])).ToList();
 				var averageVmSizes24Hours = GetAverageVmSizes(element, processNames, now.AddHours(-24), now, engine);
 
@@ -173,8 +217,7 @@ namespace SLProcess_VM_Size_7day_Variation_1
 					var processName = Convert.ToString(process[0]);
 					double? trendDifference24Hours = null;
 					var formattedkey = processName.ToUpperInvariant();
-					double temp;
-					if (averageVmSizes7Days.TryGetValue(formattedkey, out temp) && averageVmSizes24Hours.TryGetValue(formattedkey, out temp))
+					if (averageVmSizes7Days.TryGetValue(formattedkey, out _) && averageVmSizes24Hours.TryGetValue(formattedkey, out _))
 					{
 						trendDifference24Hours = GetAverageDifference(averageVmSizes7Days[formattedkey], averageVmSizes24Hours[formattedkey]);
 
@@ -198,7 +241,6 @@ namespace SLProcess_VM_Size_7day_Variation_1
 			}
 		}
 
-
 		public class TestResult
 		{
 			public string ParameterName { get; set; }
@@ -215,31 +257,5 @@ namespace SLProcess_VM_Size_7day_Variation_1
 
 			public bool Success { get; set; }
 		}
-	}
-}
-
-//---------------------------------
-// Consts\MicrosoftPlatformConsts.cs
-//---------------------------------
-namespace Library.Consts
-{
-	using System.Collections.Generic;
-
-	public static class MicrosoftPlatformConsts
-	{
-		public static readonly int ComputerNameParam = 165;
-		public static readonly int LastRebootDaysParam = 209;
-		public static readonly int LastUpdateDaysParam = 208;
-		public static readonly int TotalProcessorParam = 350;
-		public static readonly int PhysicalMemoryUsageParam = 51321;
-		public static readonly int DriveTableId = 170;
-		public static readonly int DriveFreeSpaceColumn = 3;
-		public static readonly int TaskManagerTable = 96;
-		public static readonly int TaskManagerVmSizePid = 99;
-		public static readonly Dictionary<int, (int TaskManagerCpuIdx, int TaskManagerVMSizeIdx)> TaskManagerIdxsbyBranch = new Dictionary<int, (int, int)>
-		{
-			[6] = (11, 4),
-			[1] = (15, 12),
-		};
 	}
 }
