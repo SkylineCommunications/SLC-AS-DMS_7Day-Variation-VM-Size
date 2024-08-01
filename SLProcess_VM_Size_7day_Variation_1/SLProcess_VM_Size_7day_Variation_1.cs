@@ -223,7 +223,7 @@ namespace SLProcess_VM_Size_7day_Variation_1
 
 						TestResult testResult = new TestResult
 						{
-							ParameterName = "7 Day Variation VmSize",
+							ParameterName = "7Day Variation VmSize",
 							DmaName = computerName,
 							ElementName = element.Name,
 							ReceivedValue = FormatSize(trendDifference24Hours),
