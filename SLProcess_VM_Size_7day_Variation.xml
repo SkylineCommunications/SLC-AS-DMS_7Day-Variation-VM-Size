@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <DMSScript options="272" xmlns="http://www.skyline.be/automation">
-	<Name>SLProcess_VM_Size_7day_Variation</Name>
-	<Description>This script calculates the 7Day VM size variation for health checker package.</Description>
+	<Name>7Day Variation VmSize</Name>
+	<Description>This script calculates the deviation of the Virtual Memory (VM) size for all the processes available in the task table of all the Microsoft platform elements in a system.</Description>
 	<Type>Automation</Type>
 	<Author>SKYLINE2\SNA</Author>
 	<CheckSets>FALSE</CheckSets>
