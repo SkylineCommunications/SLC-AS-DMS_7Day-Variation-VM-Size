@@ -5,7 +5,7 @@
 	<Type>Automation</Type>
 	<Author>SKYLINE2\SNA</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder>Health Check/Health Check Tests</Folder>
+	<Folder>DataMiner Health Check/Protocol Scripts</Folder>
 
 	<Protocols>
 	</Protocols>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SLProcess_VM_Size_7day_Variation_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a073a9aa302e8fefb6230689c4ec3345984d2c71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d92688e18be09e7630a46c2cbc0bb5fac8f29d8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SLProcess_VM_Size_7day_Variation_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SLProcess_VM_Size_7day_Variation_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -22,3 +22,28 @@ C:\GitHub\Skyline\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\SLProcess_VM_Size_
 C:\GitHub\Skyline\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.dll
 C:\GitHub\Skyline\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.xml
 C:\GitHub\Skyline\SLC-AS-DMS_SLProcess_VM_Size_7day_Variation\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.pdb
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLProcess_VM_Size_7day_Variation_1.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLProcess_VM_Size_7day_Variation_1.pdb
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLProcess_VM_Size_7day_Variation_1.xml
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\Newtonsoft.Json.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\ICSharpCode.SharpZipLib.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\Skyline.DataMiner.Core.DataMinerSystem.Automation.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\Skyline.DataMiner.Core.DataMinerSystem.Common.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\protobuf-net.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\Skyline.DataMiner.Storage.Types.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLAnalyticsTypes.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLLoggerUtil.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLManagedAutomation.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLNetTypes.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\SLProtoBufLibrary.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\bin\Debug\net48\System.Threading.Tasks.Dataflow.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.csproj.AssemblyReference.cache
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.AssemblyInfoInputs.cache
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.AssemblyInfo.cs
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.csproj.CoreCompileInputs.cache
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.sourcelink.json
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProces.E68C5929.Up2Date
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.dll
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.xml
+C:\Users\Danielapr\Downloads\Temp Health Check scripts\SLC-AS-DMS_7Day-Variation-VM-Size\SLProcess_VM_Size_7day_Variation_1\obj\Debug\net48\SLProcess_VM_Size_7day_Variation_1.pdb
